@@ -1,0 +1,91 @@
+.container.shrinked {
+    padding: 0px 0px; }
+    @media screen and (min-width: 991px) and (max-width: 1200px) {
+      .container.shrinked {
+        padding: 0px 0px; } }
+    @media screen and (max-width: 990px) {
+      .container.shrinked {
+        padding: 0px 0px; } }
+  
+  
+  
+  .container {
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    *zoom: 1; }
+    .container:after {
+      content: " ";
+      clear: both;
+      display: block;
+      overflow: hidden;
+      height: 0; }
+    @media (min-width: 768px) {
+      .container {
+        width: 750px; } }
+    @media (min-width: 992px) {
+      .container {
+        width: 970px; } }
+    @media (min-width: 1200px) {
+      .container {
+        width: 1170px; } }
+  
+  .container-fluid {
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    *zoom: 1; }
+    .container-fluid:after {
+      content: " ";
+      clear: both;
+      display: block;
+      overflow: hidden;
+      height: 0; }
+  
+  
+  
+  .counter-wrap {
+    margin: 5px -15px;
+    *zoom: 1; }
+    .counter-wrap:after {
+      content: " ";
+      clear: both;
+      display: block;
+      overflow: hidden;
+      height: 0; }
+    .counter-wrap .counter {
+      width: 25%;
+      padding: 0 15px;
+      float: left; }
+      @media screen and (max-width: 600px) {
+        .counter-wrap .counter {
+          padding: 0 5px; } }
+    .counter-wrap .number {
+      border-radius: 10px;
+      border-top: 1px solid #817489;
+      box-shadow: 0 1px 1px rgba(0, 0, 0, 0.3);
+      text-align: center;
+      font-size: 90px;
+      font-size: 4em;
+      font-weight: 700;
+      padding: 0px 0;
+      margin-bottom: 10px; }
+      @media screen and (max-width: 990px) {
+        .counter-wrap .number {
+          font-size: 70px;
+          font-size: 3.8888888889em; } }
+      @media screen and (max-width: 480px) {
+        .counter-wrap .number {
+          font-size: 40px;
+          font-size: 2.2222222222em; } }
+    .counter-wrap .caption {
+      text-align: center;
+      text-transform: uppercase;
+      font-weight: 700;
+      font-size: 14px;
+      font-size: 0.7777777778em;
+      text-shadow: 0 1px 1px rgba(0, 0, 0, 0.3); }
+  
+  
